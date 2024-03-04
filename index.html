@@ -29,6 +29,77 @@
     </style>
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamiMotivation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: 100%; 
+            height: 100%;
+            object-fit: cover; /* Ensure video cover the whole screen */
+            z-index: -1; /* Ensure the video is behind other content */
+        }
+        /* Existing styles */
+        .navbar, .footer {
+            background-color: #fff;
+            color: #888;
+        }
+        .container, .navbar, .footer {
+            z-index: 2;
+            position: relative;
+        }
+        /* Add more custom styles here */
+    </style>
+</head>
+<body>
+
+    <video class="bg-video" autoplay loop muted>
+        <source src="PATH_TO_YOUR_VIDEO.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CamiMotivation</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Health</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Habit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Books</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Your existing landing page content here -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">Place your footer content here.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">CamiMotivation</a>
         <div class="collapse navbar-collapse" id="navbarNav">
