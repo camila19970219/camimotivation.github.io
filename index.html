@@ -1,1 +1,136 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CamiMotivation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            color: gray;
+            background-color: lightgreen;
+        }
+        .section {
+            padding: 50px 0;
+        }
+        .section-light {
+            background-color: white;
+            color: gray;
+        }
+        .btn-knowledge {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+    <a class="navbar-brand" href="#">CamiMotivation</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Health <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Habit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Video Section -->
+<div class="container text-center my-5">
+    <div class="row">
+        <div class="col">
+            <!-- Replace 'videopath.mp4' with your video path -->
+            <video width="75%" controls>
+                <source src="landing page_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>You are the master of your life.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Sections -->
+<div class="section section-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Replace 'yourimagepath.jpg' with your image path -->
+                <img src="health.png" alt="Health" class="img-fluid">
+                <button class="btn btn-primary btn-knowledge">Know More</button>
+            </div>
+            <div class="col-md-6">
+                <h3>Health</h3>
+                <p>Take care of yourself, be healthy, and always believe you can be successful in anything you truly want. – Alessandra Ambrosio</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Habits</h3>
+                <p>Motivation is what gets you started. Habit is what keeps you going. - Jan Mckingley Hilado</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Replace 'yourimagepath.jpg' with your image path -->
+                <img src="habits.png" alt="Habits" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section section-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Replace 'yourimagepath.jpg' with your image path -->
+                <img src="books.png" alt="Books" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h3>Books</h3>
+                <p>There is more treasure in books than in all the pirate's loot on Treasure Island. – Walt Disney</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="section text-center">
+    <div class="container">
+        <h2>Contact CamiMotivation</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="phone" class="form-control" id="phone" placeholder="Phone">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
